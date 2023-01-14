@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiffany St Pierre Web Developer Portfolio</title>
+    <meta name="description" content="Tiffany St Pierre is a front end web developer based in Calgary, Alberta. With a focus on creating custom websites and web apps with responsive design for all devices.">
+    <meta name="author" content="Tiffany St Pierre">
+    <meta property="og:title" content="Tiffany St Pierre Web Developer Portfolio">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tiffanystpierre.ca/">
+    <meta property="og:description" content="A Calgary based front end web developer, focused on creating custom, responsive websites and web apps.">
+    <meta property="og:image" content="https://www.tiffanystpierre.ca/images/ts-logo.png">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/7ff5c9ea77.js" crossorigin="anonymous" defer></script>
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-top">
+            <p>Email: <a href="mailto:stpierre.tiffany@gmail.com">stpierre.tiffany@gmail.com</a></p>
+            <ul class=" header-social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://ca.linkedin.com/in/tiffany-st-pierre-0500356b" target="_blank" aria-label="linkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/TiffanyStPierre" target="_blank" aria-label="gitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="header-main">
+            <div class="logo">
+                <img src="images/ts-logo-sm.png" alt="" width="140" height="72">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">My Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About Me</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">My Work</a>
+                    </li>
+                    <!--<li class="nav__item">
+                        <a href="#" class="nav__link">Resume</a>
+                    </li>-->
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--  Back to top button  -->
+
+    <div class="back-to-top" onclick="topFunction()"><i class="fa-solid fa-angle-up"></i></div>
+
+    <!--  Introduction  -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hello, I'm <strong>Tiffany St Pierre</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">front-end developer</p>
+        <img src="images/laptop-work-sm.webp" alt="Computer desk with white background." class="intro__img" width="500" height="750">
+    </section>
+
+
+    <!--  My Services  -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div id="tech-list-section">
+            <p id="tech-paragraph"><strong>Technologies</strong></p>
+            <div class="about-list-container">
+                <ul>
+                    <li><strong>HTML</strong></li>
+                    <li><strong>CSS</strong></li>
+                    <li><strong>Javascript</strong></li>
+                    <li><strong>React</strong></li>
+                    <li><strong>Figma</strong></li>
+                    <li><strong>Netlify</strong></li>
+                    <li><strong>WordPress</strong></li>
+                    <li><strong>Node.js</strong></li>
+                    <li><strong>Git & GitHub</strong></li>
+                </ul>
+            </div>
+        </div>
+        <div class="services">
+            <div class="service">
+                <h3>Design + Development</h3>
+                <p>Throughout my many years of professional experience I have developed excellent communication, time management and teamwork skills. I am experienced in working with various stakeholders in a fast paced environment, and I am able to directly transfer those skills to the design and development process. I excel at working with clients and other stakeholders to create a design that will both satisfy the business needs and also generate excitement about the project.<br><br>When it comes to development, I am able to translate the approved design into a website or app as per the design specifications. I provide realistic time estimates and keep clients and stakeholders informed on the progress of the project. I only deliver top quality, fully functional final products.</p>
+            </div> <!-- / service -->
+            <div class="service">
+                <h3>Websites + Landing Pages</h3>
+                <p>I design and develop high quality websites and landing pages. Responsive design suitable for all devices, with a focus on accessibility ensures that each website I create is of the highest professional standard. From minimalist one page designs to larger websites with many pages, I have experience building many types of websites.<br><br>I am currently volunteering as a web developer for Four Feet Companion Foundation and had the honor of re-designing and developing their website from scratch. I continue to provide ongoing maintenance and updates, always ensuring to provide the highest level of service.</p>
+            </div> <!-- / service -->
+            <div class="service">
+                <h3>React Web Apps</h3>
+                <p>React is my preferred Javascript library and I have created a number of React based apps for my own personal projects. I continue to actively grow my React knowledge and experience, as it is a powerful tool when building web apps and websites.</p>
+            </div> <!-- / service -->
+        </div> <!-- / services -->
+        <!--<a href="#work" class="btn my-work-btn"> View My Work</a>-->
+    </section>
+
+
+    <!--  About Me  -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Designer & developer based out of Calgary, AB</p>
+        <div class="about-me__body">
+            <p>Hello! My name is Tiffany and I am a front end web developer based in Calgary, Alberta. I have a passion for creating innovative and user-friendly websites and applications. I am excited to be part of the development community and I am always looking for ways to improve my skills and take on new challenges.</p>
+            <p>I have built several projects using various technologies and have completed the Front End Web Developer Certificate program through the University of Alberta. I have an abundance of professional work experience and have developed the soft skills necessary to work as a valued member of any size team. I understand the importance of clear communication, time management and attention to detail. I am a fast learner who is always ready for a new and exciting project, and am constantly working to refine and expand my technical skillset and learn new technologies. I am excited to bring my passion for development and my eagerness to learn to every project and would be thrilled to work with you.</p>
+        </div>
+        <div class="soft-skills" id="soft-skills-section">
+            <p class="soft-skills-subtitle">Soft skills</p>
+            <ul class="soft-skills-list">
+                <li class="soft-skill">Teamwork</li>
+                <li class="soft-skill">Time Management</li>
+                <li class="soft-skill">Communication</li>
+                <li class="soft-skill">Problem Solving</li>
+                <li class="soft-skill">Curiosity</li>
+                <li class="soft-skill">Fast Learner</li>
+                <li class="soft-skill">Detail Oriented</li>
+                <li class="soft-skill">Perserverance</li>
+                <li class="soft-skill">Dedication</li>
+            </ul>
+        </div>
+        <img src="images/calgary-tower-sm.webp" alt="Cityscape of downtown Calgary with Bow River in the foreground" class="about-me__img" width="640" height="960">
+    </section>
+
+
+    <!--  My Work  -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+        <div class="portfolio">
+            <a href="portfolio-animal-charity.html" class="portfolio__item">
+                <h3 class="portfolio-item__name">Animal Charity Website</h3>
+                <img src="images/four-feet-website-sm.webp" alt="Screenshot of Four Feet Companion Foundation website homepage" class="portfolio__img" width="400" height="311">
+                <p class="portfolio__item--tech"><strong>Technology: </strong>HTML, CSS, Javascript, Figma, GoDaddy Hosting</p>
+            </a>
+            <a href="portfolio-movie-finder.html" class="portfolio__item">
+                <h3 class="portfolio-item__name">Movie Finder App</h3>
+                <img src="images/movie-finder-app-sm.webp" alt="Screenshot of movie finder web app" class="portfolio__img" width="400" height="329">
+                <p class="portfolio__item--tech"><strong>Technology: </strong>HTML, CSS, Javascript, Fetch API, Netlify Serverless Functions</p>
+            </a>
+            <a href="portfolio-art-gallery.html" class="portfolio__item">
+                <h3 class="portfolio-item__name">Art Gallery Website</h3>
+                <img src="images/graceful-art-by-jackie-sm.webp" alt="Screenshot of Graceful Art by Jackie website homepage" class="portfolio__img" width="400" height="265">
+                <p class="portfolio__item--tech"><strong>Technology: </strong>Wordpress, Elementor, Ocean WP, Hostinger Hosting</p>
+            </a>
+        </div>
+
+    </section>
+
+
+    <!--  Footer  -->
+    <footer class="footer">
+        <a href="mailto:stpierre.tiffany@gmail.com" class="footer__link">stpierre.tiffany@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://ca.linkedin.com/in/tiffany-st-pierre-0500356b" target="_blank" aria-label="linkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/TiffanyStPierre" target="_blank" aria-label="gitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
