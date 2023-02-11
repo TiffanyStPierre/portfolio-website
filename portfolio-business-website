@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiffany St Pierre Web Developer Portfolio Project - Business Website</title>
+    <meta name="description" content="Tiffany St Pierre's business website project. Tiffany St Pierre is a front end web developer based in Calgary, Alberta. With a focus on creating custom websites and web apps with responsive design for all devices.">
+    <meta name="author" content="Tiffany St Pierre">
+    <meta property="og:title" content="Tiffany St Pierre Web Developer Portfolio Project - Business Website">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tiffanystpierre.ca/portfolio-business-website">
+    <meta property="og:description" content="Tiffany St Pierre's business website portfolio project. A Calgary based front end web developer, focused on creating custom, responsive websites and web apps.">
+    <meta property="og:image" content="https://www.tiffanystpierre.ca/images/ts-logo.png">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/7ff5c9ea77.js" crossorigin="anonymous" defer></script>
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-top">
+            <p>Email: <a href="mailto:stpierre.tiffany@gmail.com">stpierre.tiffany@gmail.com</a></p>
+            <ul class=" header-social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://ca.linkedin.com/in/tiffany-st-pierre-0500356b" target="_blank" aria-label="linkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/TiffanyStPierre" target="_blank" aria-label="gitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="header-main">
+            <div class="logo">
+                <a href="index.html"><img src="images/ts-logo-sm.png" alt="" width="140" height="72" aria-label="home page"></a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html#services" class="nav__link">My Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html#about" class="nav__link">About Me</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html#work" class="nav__link">My Work</a>
+                    </li>
+                    <!--<li class="nav__item">
+                        <a href="#" class="nav__link">Resume</a>
+                    </li>-->
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--  Back to top button  -->
+
+    <div class="back-to-top" onclick="topFunction()"><i class="fa-solid fa-angle-up"></i></div>
+
+    <!--  Introduction  -->
+
+    <a href="https://www.pinkwavemedia.com/" target="_blank">
+        <section class="intro portfolio-item-individual__intro">
+            <h1 class="section__title section__title--intro portfolio-item-individual__intro-h1">Pink Wave Media <strong>business website</strong></h1>
+            <p class="section__subtitle section__subtitle--intro portfolio-item-individual__subtitle">HTML, CSS & Javascript</p>
+            <img src="images/business-website.webp" alt="Screenshot of Pink Wave Media website homepage" width="1000" height="625" class="intro__img portfolio-item-individual-img" id="art-website-img">
+        </section>
+    </a>
+
+    <!--  Describe each project, what it was and what you did on it. The more details you can give and insights into the project the better -->
+
+    <div class="portfolio-item-individual">
+        <p class="portfolio-item-individual-p">My name is Tiffany St Pierre and I am a front end web developer based in Calgary, Alberta. I'm excited to share the details of this project with you and I hope you will <a href="https://www.pinkwavemedia.com/" target="_blank"><strong>visit the website</strong></a> after reading about it.</p>
+        <div class="portfolio-item-individual__technologies">
+            <h3>Featured Technologies</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>GoDaddy Hosting</li>
+                <li>Figma</li>
+            </ul>
+        </div>
+        <h3 class="project-details-h3">Project Details</h3>
+        <p class="portfolio-item-individual-p">This art gallery website was created for a family member to have an online space to display her paintings. I created this website very early in my journey to becoming a developer. Because it was early in my journey, I decided to use WordPress, Elementor and an e-commerce template from Ocean WP. The use of WordPress as a CMS ensures that the website owner is able to update the art inventory on their own without having to rely on a developer to maintain the content, which is what they wanted. This was an important factor when determining the technologies used for building the website.</p>
+        <p class="portfolio-item-individual-p">Although this website was created using an Ocean WP template, the process of deploying it with a hosting provider and customizing it to what I needed really taught me a lot. This was my first experience working directly with a hosting provider to deploy a live website and my first experience using WordPress. Modifying an e-commerce store theme to repurpose it as an art gallery with the cart and purchasing features turned off was a great challenge for me at this stage in my learning. In addition, learning how the e-commerce products are maintained through WooCommerce and the product dashboard was really interesting for me.</p>
+        <p class="portfolio-item-individual-p">After the website was completed I provided easy to follow, detailed instructions on how to update the WooCommerce products so the artist is able to manage the website inventory without assistance. I am, of course, always available to assist with any questions and to take care of the more complicated tasks.</p>
+        <p class="portfolio-item-individual-p">I am currently providing ongoing maintenance and updates for this website and technical support on an as needed basis.</p>
+    </div>
+
+
+    <!--  Footer  -->
+    <footer class="footer portfolio-item-individual__footer">
+        <a href="mailto:stpierre.tiffany@gmail.com" class="footer__link">stpierre.tiffany@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://ca.linkedin.com/in/tiffany-st-pierre-0500356b" target="_blank" aria-label="linkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/TiffanyStPierre" target="_blank" aria-label="gitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
