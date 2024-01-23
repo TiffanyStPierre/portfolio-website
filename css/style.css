@@ -751,11 +751,17 @@ h3 {
     overflow: hidden;
     margin: 2em 1em;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
     width: 55%;
     border: 2px solid var(--clr-accent);
     padding: 1.75em 2.75em;
+}
+
+.portfolio-item__summary{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .portfolio-item__text {
@@ -763,13 +769,11 @@ h3 {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  margin-right: 2.5em;
 }
 
 .portfolio-item__name {
     background: var(--clr-dark);
     color: var(--clr-light);
-    padding: 0.2em 0;
     flex-grow: 0;
     font-size: 2.25rem;
     font-weight: 600;
@@ -777,7 +781,6 @@ h3 {
 
 .portfolio__item--tech {
     background: var(--clr-dark);
-    padding: 0.1em 0;
     color: var(--clr-light);
     margin: 0;
     font-weight: 600;
@@ -810,6 +813,11 @@ h3 {
   font-size: 1rem;
   color: var(--clr-dark);
   margin-top: 1em;
+}
+
+.project-details {
+  margin: 2em 0 1em 0;
+  display: none;
 }
 
 @media (max-width: 1200px) {
