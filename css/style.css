@@ -908,6 +908,7 @@ h3 {
     padding: 1.25em 1.25em;
     width:95%;
     margin: 1em auto;
+    border: none;
   }
 
   .portfolio-item__summary {
